@@ -72,7 +72,7 @@ disqusShortname = ''
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "I'm so screwed"
   name = "dalpaeng2"
-  description = "쉽게 주어진 답은 내 것이 아니다."
+  description = "공부를 통해서 세상을 바라보는 해상도를 높혀가고 있습니다."
 
 # Allow to override webmanifest options
 [params.webmanifest]
