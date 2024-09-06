@@ -1,3 +1,7 @@
+---
+noComment: true
+---
+
 # About
 
 ## 자격증
