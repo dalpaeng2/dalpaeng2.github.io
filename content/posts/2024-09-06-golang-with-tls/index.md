@@ -52,12 +52,9 @@ import "C"
 import "runtime"
 
 func main() {
-  for i := range 100 {
+  for i := range 100_000 {
     go func(x int) {
-      C.set_tls(C.int(x))
-
-      runtime.Gosched()
-
+      C.set_tls(C.int(x
       y := int(C.get_tls())
 
       if x != y {
@@ -85,15 +82,12 @@ import "C"
 import "runtime"
 
 func main() {
-  for i := range 100 {
+  for i := range 100_000 {
     go func(x int) {
       runtime.LockOSThread()
       defer runtime.UnlockOSThread()
 
       C.set_tls(C.int(x))
-
-      runtime.Gosched()
-
       y := int(C.get_tls())
 
       if x != y {
