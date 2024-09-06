@@ -9,13 +9,13 @@ tags: []
 먼저 supabase 프로젝트를 초기화 합니다.
 
 ```bash
-$ supabase init
+supabase init
 ```
 
 다음으로 supabase cli를 사용해 edge function을 만듭니다.
 
 ```bash
-$ supabase functions new my-function
+supabase functions new my-function
 ```
 
 ## 배포하기
