@@ -2,7 +2,6 @@
 title: Git Directory 내부 구조 알아보기
 date: 2025-03-23T04:53:41+09:00
 tags: [git]
-draft: true
 ---
 
 ## Git이란?
