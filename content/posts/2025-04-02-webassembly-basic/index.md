@@ -31,7 +31,7 @@ tags: [WebAssembly]
 
 ## WebAssembly 동작 방식
 
-![wasm](images/wasm.jpg)
+![wasm](images/wasm.jpeg)
 
 ```text
 [Rust Source Code]
